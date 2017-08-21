@@ -1,0 +1,703 @@
+21:41:04:009	1348	args: -epool asia1.ethermine.org:4444 -ewal 0x782e59ec5699ae29e58ac3552496eb91be0c16da -epsw x -eworker 480 -r 1 -esm 1 -mode 0 -tt 60 
+21:41:04:010	1348	
+21:41:04:010	1348	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:41:04:012	1348	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.6      บ
+21:41:04:012	1348	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:41:04:013	1348	
+21:41:04:213	1348	ETH: 1 pool is specified
+21:41:04:213	1348	Main Ethereum pool is asia1.ethermine.org:4444
+21:41:04:214	1348	DCR: 0 pool is specified
+21:41:04:826	1348	OpenCL platform: AMD Accelerated Parallel Processing
+21:41:04:827	1348	OpenCL initializing...
+
+21:41:04:827	1348	AMD Cards available: 5 
+21:41:04:827	1348	GPU #0: Ellesmere, 8192 MB available, 36 compute units
+21:41:04:828	1348	GPU #0 recognized as Radeon RX 480/580
+21:41:04:828	1348	GPU #1: Ellesmere, 8192 MB available, 36 compute units
+21:41:04:828	1348	GPU #1 recognized as Radeon RX 480/580
+21:41:04:829	1348	GPU #2: Ellesmere, 8192 MB available, 36 compute units
+21:41:04:829	1348	GPU #2 recognized as Radeon RX 480/580
+21:41:04:829	1348	GPU #3: Ellesmere, 8192 MB available, 36 compute units
+21:41:04:829	1348	GPU #3 recognized as Radeon RX 480/580
+21:41:04:829	1348	GPU #4: Ellesmere, 8192 MB available, 36 compute units
+21:41:04:829	1348	GPU #4 recognized as Radeon RX 480/580
+21:41:04:830	1348	POOL/SOLO version
+21:41:04:830	1348	b365 
+21:41:04:830	1348	Platform: Windows
+21:41:04:851	1348	start building OpenCL program for GPU 0...
+21:41:05:275	1348	done
+21:41:05:482	1348	start building OpenCL program for GPU 1...
+21:41:05:811	1348	done
+21:41:06:018	1348	start building OpenCL program for GPU 2...
+21:41:06:329	1348	done
+21:41:06:533	1348	start building OpenCL program for GPU 3...
+21:41:06:851	1348	done
+21:41:07:072	1348	start building OpenCL program for GPU 4...
+21:41:07:371	1348	done
+21:41:07:626	1348	GPU #0: algorithm ASM
+21:41:07:650	1348	GPU #1: algorithm ASM
+21:41:07:676	1348	GPU #2: algorithm ASM
+21:41:07:701	1348	GPU #3: algorithm ASM
+21:41:07:729	1348	GPU #4: algorithm ASM
+21:41:07:761	1348	cudaGetDeviceCount failed (30, unknown error), probably no CUDA devices
+21:41:07:761	1348	No NVIDIA CUDA GPUs detected.
+21:41:07:761	1348	Total cards: 5 
+21:41:14:589	1348	No NVIDIA cards in the list, NVML library will not be used.
+21:41:14:680	c0	ETH: Stratum - connecting to 'asia1.ethermine.org' <139.99.9.157> port 4444
+21:41:14:741	1348	No pool specified for Decred! Ethereum-only mining mode is enabled
+21:41:14:741	1348	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:41:14:741	1348	ETH: qtminer stratum mode
+21:41:14:742	1348	Watchdog enabled
+21:41:14:742	1348	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:41:14:742	1348	
+21:41:14:781	c0	send: {"id":2,"jsonrpc":"2.0","method":"eth_login","params":["0x782e59ec5699ae29e58ac3552496eb91be0c16da","x"]}
+
+21:41:14:781	c0	ETH: Stratum - Connected (asia1.ethermine.org:4444)
+21:41:14:876	c0	got 39 bytes
+21:41:14:876	c0	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+21:41:14:876	c0	parse packet: 38
+21:41:14:877	c0	ETH: Authorized
+21:41:14:877	c0	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+21:41:14:877	c0	new buf size: 0
+21:41:14:972	c0	got 248 bytes
+21:41:14:972	c0	buf: {"id":3,"jsonrpc":"2.0","result":["0xd16cd777e8835004b383c8fe192645a381851a3248ada5e801a93c90ad0e772b","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2aff"]}
+
+21:41:14:972	c0	parse packet: 247
+21:41:14:973	c0	ETH: job changed
+21:41:14:973	c0	new buf size: 0
+21:41:15:052	13a0	Setting DAG epoch #131...
+21:41:16:408	308	OC v7, Reset control for GPU 0, close miner right now if you want to use default control from Catalyst 
+21:41:16:461	308	OC v7, Reset control for GPU 1, close miner right now if you want to use default control from Catalyst 
+21:41:16:516	308	OC v7, Reset control for GPU 2, close miner right now if you want to use default control from Catalyst 
+21:41:16:573	308	OC v7, Reset control for GPU 3, close miner right now if you want to use default control from Catalyst 
+21:41:16:633	308	OC v7, Reset control for GPU 4, close miner right now if you want to use default control from Catalyst 
+21:41:17:397	458	Setting DAG epoch #131 for GPU1
+21:41:17:397	13a0	Setting DAG epoch #131 for GPU0
+21:41:17:397	634	Setting DAG epoch #131 for GPU3
+21:41:17:399	120	Setting DAG epoch #131 for GPU4
+21:41:17:397	8e0	Setting DAG epoch #131 for GPU2
+21:41:17:400	634	Create GPU buffer for GPU3
+21:41:17:401	120	Create GPU buffer for GPU4
+21:41:17:400	8e0	Create GPU buffer for GPU2
+21:41:17:399	13a0	Create GPU buffer for GPU0
+21:41:17:429	458	Create GPU buffer for GPU1
+21:41:19:940	308	OC v7, Reset control for GPU 0, close miner right now if you want to use default control from Catalyst 
+21:41:19:993	308	OC v7, Reset control for GPU 1, close miner right now if you want to use default control from Catalyst 
+21:41:20:062	308	OC v7, Reset control for GPU 2, close miner right now if you want to use default control from Catalyst 
+21:41:20:142	308	OC v7, Reset control for GPU 3, close miner right now if you want to use default control from Catalyst 
+21:41:20:229	308	OC v7, Reset control for GPU 4, close miner right now if you want to use default control from Catalyst 
+21:41:21:780	634	GPU3 DAG creation time - 4249 ms
+21:41:21:809	120	GPU4 DAG creation time - 4250 ms
+21:41:21:807	634	Setting DAG epoch #131 for GPU3 done
+21:41:21:845	120	Setting DAG epoch #131 for GPU4 done
+21:41:21:978	458	GPU1 DAG creation time - 4261 ms
+21:41:21:981	458	Setting DAG epoch #131 for GPU1 done
+21:41:22:102	13a0	GPU0 DAG creation time - 4553 ms
+21:41:22:103	13a0	Setting DAG epoch #131 for GPU0 done
+21:41:22:133	8e0	GPU2 DAG creation time - 4417 ms
+21:41:22:189	8e0	Setting DAG epoch #131 for GPU2 done
+21:41:23:421	308	GPU 0 temp = 54, old fan speed = 0, new fan speed = 76 
+21:41:23:478	308	GPU 1 temp = 41, old fan speed = 0, new fan speed = 69 
+21:41:23:554	308	GPU 2 temp = 40, old fan speed = 0, new fan speed = 69 
+21:41:23:635	308	GPU 3 temp = 41, old fan speed = 0, new fan speed = 69 
+21:41:23:728	308	GPU 4 temp = 45, old fan speed = 0, new fan speed = 71 
+21:41:26:898	308	GPU 0 temp = 55, old fan speed = 0, new fan speed = 74 
+21:41:26:964	308	GPU 1 temp = 42, old fan speed = 0, new fan speed = 61 
+21:41:27:040	308	GPU 2 temp = 41, old fan speed = 0, new fan speed = 60 
+21:41:27:127	308	GPU 3 temp = 42, old fan speed = 0, new fan speed = 61 
+21:41:27:207	308	GPU 4 temp = 46, old fan speed = 0, new fan speed = 65 
+21:41:30:392	308	GPU 0 temp = 56, old fan speed = 0, new fan speed = 73 
+21:41:30:448	308	GPU 1 temp = 43, old fan speed = 0, new fan speed = 53 
+21:41:30:519	308	GPU 2 temp = 41, old fan speed = 0, new fan speed = 51 
+21:41:30:598	308	GPU 3 temp = 43, old fan speed = 0, new fan speed = 53 
+21:41:30:684	308	GPU 4 temp = 47, old fan speed = 0, new fan speed = 59 
+21:41:33:852	308	GPU 0 temp = 57, old fan speed = 0, new fan speed = 73 
+21:41:33:915	308	GPU 1 temp = 44, old fan speed = 0, new fan speed = 46 
+21:41:33:994	308	GPU 2 temp = 42, old fan speed = 0, new fan speed = 43 
+21:41:34:074	308	GPU 3 temp = 44, old fan speed = 0, new fan speed = 46 
+21:41:34:165	308	GPU 4 temp = 48, old fan speed = 0, new fan speed = 54 
+21:41:34:961	46c	
+21:41:34:965	46c	GPU #0: Ellesmere, 8192 MB available, 36 compute units
+21:41:34:985	c0	send: {"id":6,"worker":"480","jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8b041a3", "0x00000000000000000000000000000000000000000000000000000000e5ba3c7e"]}
+
+21:41:35:013	46c	GPU #1: Ellesmere, 8192 MB available, 36 compute units
+21:41:35:015	46c	GPU #2: Ellesmere, 8192 MB available, 36 compute units
+21:41:35:038	46c	GPU #3: Ellesmere, 8192 MB available, 36 compute units
+21:41:35:078	46c	GPU #4: Ellesmere, 8192 MB available, 36 compute units
+21:41:35:079	46c	ETH - Total Speed: 145.769 Mh/s, Total Shares: 0(0+0+0+0+0), Rejected: 0, Time: 00:00
+21:41:35:107	c0	got 39 bytes
+21:41:35:119	c0	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:41:35:120	c0	parse packet: 38
+21:41:35:120	c0	new buf size: 0
+21:41:35:122	46c	ETH: GPU0 28.712 Mh/s, GPU1 29.279 Mh/s, GPU2 29.282 Mh/s, GPU3 29.244 Mh/s, GPU4 29.252 Mh/s
+21:41:35:123	46c	Incorrect ETH shares: none
+21:41:35:162	46c	1 minute average ETH total speed: 145.727 Mh/s
+21:41:35:163	46c	Pool switches: ETH - 0, DCR - 0
+21:41:35:205	46c	Current ETH share target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:41:35:585	46c	GPU0 t=57C fan=0%, GPU1 t=44C fan=0%, GPU2 t=43C fan=0%, GPU3 t=44C fan=0%, GPU4 t=48C fan=0%
+21:41:35:614	46c	
+21:41:37:025	c0	got 248 bytes
+21:41:37:025	c0	buf: {"id":0,"jsonrpc":"2.0","result":["0xdd754a187291cd50cc85e953a8609e8f256e828ee035742bc2ebf9c2212a5f7a","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b00"]}
+
+21:41:37:025	c0	parse packet: 247
+21:41:37:026	c0	ETH: job changed
+21:41:37:026	c0	new buf size: 0
+21:41:37:028	c0	ETH: 06/28/17-21:41:37 - New job from asia1.ethermine.org:4444
+21:41:37:028	c0	target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:41:37:035	c0	ETH - Total Speed: 145.697 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:41:37:067	c0	ETH: GPU0 28.686 Mh/s, GPU1 29.258 Mh/s, GPU2 29.249 Mh/s, GPU3 29.244 Mh/s, GPU4 29.260 Mh/s
+21:41:37:300	308	GPU 0 temp = 58, old fan speed = 0, new fan speed = 73 
+21:41:37:365	308	GPU 1 temp = 44, old fan speed = 0, new fan speed = 39 
+21:41:37:443	308	GPU 2 temp = 43, old fan speed = 0, new fan speed = 35 
+21:41:37:527	308	GPU 3 temp = 44, old fan speed = 0, new fan speed = 39 
+21:41:37:619	308	GPU 4 temp = 48, old fan speed = 0, new fan speed = 49 
+21:41:38:002	308	GPU0 t=59C fan=0%, GPU1 t=45C fan=0%, GPU2 t=43C fan=0%, GPU3 t=44C fan=0%, GPU4 t=48C fan=0%
+21:41:38:006	308	em hbt: 0, fm hbt: 47, 
+21:41:38:007	308	watchdog - thread 0 (gpu0), hb time 79
+21:41:38:007	308	watchdog - thread 1 (gpu0), hb time 250
+21:41:38:007	308	watchdog - thread 2 (gpu1), hb time 282
+21:41:38:008	308	watchdog - thread 3 (gpu1), hb time 110
+21:41:38:008	308	watchdog - thread 4 (gpu2), hb time 266
+21:41:38:008	308	watchdog - thread 5 (gpu2), hb time 110
+21:41:38:008	308	watchdog - thread 6 (gpu3), hb time 282
+21:41:38:008	308	watchdog - thread 7 (gpu3), hb time 110
+21:41:38:008	308	watchdog - thread 8 (gpu4), hb time 282
+21:41:38:009	308	watchdog - thread 9 (gpu4), hb time 110
+21:41:41:140	308	GPU 0 temp = 59, old fan speed = 75, new fan speed = 73 
+21:41:41:197	308	GPU 1 temp = 45, old fan speed = 0, new fan speed = 32 
+21:41:41:267	308	GPU 2 temp = 44, old fan speed = 0, new fan speed = 28 
+21:41:41:346	308	GPU 3 temp = 45, old fan speed = 0, new fan speed = 32 
+21:41:41:435	308	GPU 4 temp = 49, old fan speed = 0, new fan speed = 44 
+21:41:44:572	308	GPU 0 temp = 58, old fan speed = 78, new fan speed = 73 
+21:41:44:627	308	GPU 1 temp = 46, old fan speed = 0, new fan speed = 26 
+21:41:44:688	308	GPU 2 temp = 45, old fan speed = 0, new fan speed = 25 
+21:41:44:776	308	GPU 3 temp = 45, old fan speed = 0, new fan speed = 25 
+21:41:44:864	308	GPU 4 temp = 50, old fan speed = 0, new fan speed = 40 
+21:41:44:985	c0	ETH: checking pool connection...
+21:41:44:985	c0	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+21:41:45:077	c0	got 248 bytes
+21:41:45:077	c0	buf: {"id":3,"jsonrpc":"2.0","result":["0xdd754a187291cd50cc85e953a8609e8f256e828ee035742bc2ebf9c2212a5f7a","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b00"]}
+
+21:41:45:077	c0	parse packet: 247
+21:41:45:078	c0	ETH: job is the same
+21:41:45:078	c0	new buf size: 0
+21:41:48:020	308	GPU 0 temp = 58, old fan speed = 77, new fan speed = 73 
+21:41:48:076	308	GPU 1 temp = 46, old fan speed = 0, new fan speed = 25 
+21:41:48:146	308	GPU 2 temp = 45, old fan speed = 0, new fan speed = 25 
+21:41:48:227	308	GPU 3 temp = 46, old fan speed = 0, new fan speed = 25 
+21:41:48:324	308	GPU 4 temp = 51, old fan speed = 0, new fan speed = 36 
+21:41:50:638	834	ETH: put share nonce 1a45e2400b4e058c
+21:41:50:639	834	ETH round found 1 shares
+21:41:50:641	c0	ETH: 06/28/17-21:41:50 - SHARE FOUND - (GPU 3)
+21:41:50:645	c0	send: {"worker":"480","id":4,"method":"eth_submitWork","params":["0x1a45e2400b4e058c","0xdd754a187291cd50cc85e953a8609e8f256e828ee035742bc2ebf9c2212a5f7a","0x1b99ccf41819f96dbea69fbfff4be725dfd7d44cc5fe037ce3e2590ab0f6eae7"]}
+
+21:41:50:749	c0	got 39 bytes
+21:41:50:749	c0	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+21:41:50:750	c0	parse packet: 38
+21:41:50:751	c0	ETH: Share accepted (94 ms)!
+21:41:50:755	c0	new buf size: 0
+21:41:51:442	308	GPU 0 temp = 58, old fan speed = 78, new fan speed = 73 
+21:41:51:499	308	GPU 1 temp = 47, old fan speed = 0, new fan speed = 25 
+21:41:51:574	308	GPU 2 temp = 46, old fan speed = 0, new fan speed = 25 
+21:41:51:656	308	GPU 3 temp = 46, old fan speed = 0, new fan speed = 25 
+21:41:51:742	308	GPU 4 temp = 51, old fan speed = 0, new fan speed = 32 
+21:41:54:879	308	GPU 0 temp = 57, old fan speed = 76, new fan speed = 73 
+21:41:54:936	308	GPU 1 temp = 47, old fan speed = 0, new fan speed = 25 
+21:41:55:000	c0	send: {"id":6,"worker":"480","jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8b1dde8", "0x00000000000000000000000000000000000000000000000000000000e5ba3c7e"]}
+
+21:41:55:010	308	GPU 2 temp = 47, old fan speed = 0, new fan speed = 25 
+21:41:55:094	c0	got 39 bytes
+21:41:55:094	c0	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:41:55:095	c0	parse packet: 38
+21:41:55:095	c0	new buf size: 0
+21:41:55:097	308	GPU 3 temp = 46, old fan speed = 0, new fan speed = 25 
+21:41:55:196	308	GPU 4 temp = 52, old fan speed = 0, new fan speed = 29 
+21:41:58:310	308	GPU 0 temp = 57, old fan speed = 77, new fan speed = 73 
+21:41:58:367	308	GPU 1 temp = 48, old fan speed = 0, new fan speed = 25 
+21:41:58:444	308	GPU 2 temp = 47, old fan speed = 0, new fan speed = 25 
+21:41:58:530	308	GPU 3 temp = 46, old fan speed = 0, new fan speed = 25 
+21:41:58:619	308	GPU 4 temp = 52, old fan speed = 0, new fan speed = 26 
+21:42:01:744	308	GPU 0 temp = 57, old fan speed = 76, new fan speed = 73 
+21:42:01:798	308	GPU 1 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:01:866	308	GPU 2 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:01:953	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:02:040	308	GPU 4 temp = 53, old fan speed = 0, new fan speed = 25 
+21:42:05:171	308	GPU 0 temp = 57, old fan speed = 78, new fan speed = 73 
+21:42:05:228	308	GPU 1 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:05:301	308	GPU 2 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:05:389	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:05:476	308	GPU 4 temp = 53, old fan speed = 0, new fan speed = 25 
+21:42:07:272	1298	ETH: put share nonce 175cbfd01964101d
+21:42:07:272	1298	ETH round found 1 shares
+21:42:07:273	c0	ETH: 06/28/17-21:42:07 - SHARE FOUND - (GPU 0)
+21:42:07:279	c0	send: {"worker":"480","id":4,"method":"eth_submitWork","params":["0x175cbfd01964101d","0xdd754a187291cd50cc85e953a8609e8f256e828ee035742bc2ebf9c2212a5f7a","0xffc2d53eb6a0a9d3fa6a292eb8f011637a5f8d30de07a93336246697b9c5979d"]}
+
+21:42:07:379	c0	got 39 bytes
+21:42:07:379	c0	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+21:42:07:379	c0	parse packet: 38
+21:42:07:380	c0	ETH: Share accepted (110 ms)!
+21:42:07:383	c0	new buf size: 0
+21:42:08:587	308	GPU 0 temp = 56, old fan speed = 78, new fan speed = 72 
+21:42:08:646	308	GPU 1 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:08:718	308	GPU 2 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:08:794	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:08:881	308	GPU 4 temp = 53, old fan speed = 0, new fan speed = 25 
+21:42:12:009	308	GPU 0 temp = 56, old fan speed = 75, new fan speed = 71 
+21:42:12:066	308	GPU 1 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:12:136	308	GPU 2 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:12:223	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:12:321	308	GPU 4 temp = 54, old fan speed = 0, new fan speed = 25 
+21:42:12:744	308	GPU0 t=56C fan=75%, GPU1 t=49C fan=0%, GPU2 t=49C fan=0%, GPU3 t=47C fan=0%, GPU4 t=54C fan=0%
+21:42:12:748	308	em hbt: 0, fm hbt: 78, 
+21:42:12:750	308	watchdog - thread 0 (gpu0), hb time 313
+21:42:12:750	308	watchdog - thread 1 (gpu0), hb time 141
+21:42:12:751	308	watchdog - thread 2 (gpu1), hb time 235
+21:42:12:751	308	watchdog - thread 3 (gpu1), hb time 79
+21:42:12:751	308	watchdog - thread 4 (gpu2), hb time 235
+21:42:12:752	308	watchdog - thread 5 (gpu2), hb time 79
+21:42:12:752	308	watchdog - thread 6 (gpu3), hb time 47
+21:42:12:752	308	watchdog - thread 7 (gpu3), hb time 204
+21:42:12:752	308	watchdog - thread 8 (gpu4), hb time 235
+21:42:12:753	308	watchdog - thread 9 (gpu4), hb time 79
+21:42:15:000	c0	ETH: checking pool connection...
+21:42:15:000	c0	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+21:42:15:018	c0	send: {"id":6,"worker":"480","jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8b818be", "0x00000000000000000000000000000000000000000000000000000000e5ba3c7e"]}
+
+21:42:15:096	c0	got 248 bytes
+21:42:15:096	c0	buf: {"id":3,"jsonrpc":"2.0","result":["0xdd754a187291cd50cc85e953a8609e8f256e828ee035742bc2ebf9c2212a5f7a","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b00"]}
+
+21:42:15:096	c0	parse packet: 247
+21:42:15:097	c0	ETH: job is the same
+21:42:15:097	c0	new buf size: 0
+21:42:15:186	c0	got 39 bytes
+21:42:15:186	c0	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:42:15:187	c0	parse packet: 38
+21:42:15:187	c0	new buf size: 0
+21:42:15:879	308	GPU 0 temp = 56, old fan speed = 75, new fan speed = 70 
+21:42:15:935	308	GPU 1 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:16:010	308	GPU 2 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:16:095	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:16:176	308	GPU 4 temp = 54, old fan speed = 0, new fan speed = 25 
+21:42:19:286	308	GPU 0 temp = 56, old fan speed = 74, new fan speed = 69 
+21:42:19:342	308	GPU 1 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:19:414	308	GPU 2 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:19:500	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:19:586	308	GPU 4 temp = 55, old fan speed = 0, new fan speed = 25 
+21:42:21:085	c0	got 248 bytes
+21:42:21:085	c0	buf: {"id":0,"jsonrpc":"2.0","result":["0x363406d500e630c6dc533bea86499e7e92c11f9657702581954c9cfeac846beb","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b02"]}
+
+21:42:21:085	c0	parse packet: 247
+21:42:21:086	c0	ETH: job changed
+21:42:21:086	c0	new buf size: 0
+21:42:21:087	c0	ETH: 06/28/17-21:42:21 - New job from asia1.ethermine.org:4444
+21:42:21:087	c0	target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:42:21:093	c0	ETH - Total Speed: 146.224 Mh/s, Total Shares: 2, Rejected: 0, Time: 00:01
+21:42:21:118	c0	ETH: GPU0 29.192 Mh/s, GPU1 29.241 Mh/s, GPU2 29.271 Mh/s, GPU3 29.275 Mh/s, GPU4 29.244 Mh/s
+21:42:22:725	308	GPU 0 temp = 56, old fan speed = 73, new fan speed = 68 
+21:42:22:783	308	GPU 1 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:22:860	308	GPU 2 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:22:947	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:23:037	308	GPU 4 temp = 55, old fan speed = 0, new fan speed = 25 
+21:42:26:179	308	GPU 0 temp = 56, old fan speed = 72, new fan speed = 67 
+21:42:26:234	308	GPU 1 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:26:297	308	GPU 2 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:26:383	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:26:464	308	GPU 4 temp = 55, old fan speed = 0, new fan speed = 25 
+21:42:27:250	1298	ETH: put share nonce d4cc0de005074f4e
+21:42:27:251	1298	ETH round found 1 shares
+21:42:27:253	c0	ETH: 06/28/17-21:42:27 - SHARE FOUND - (GPU 0)
+21:42:27:255	c0	send: {"worker":"480","id":4,"method":"eth_submitWork","params":["0xd4cc0de005074f4e","0x363406d500e630c6dc533bea86499e7e92c11f9657702581954c9cfeac846beb","0x777f50bc57ddb189b16fc54c52879576265fc3ef2ac1066613e3b9a4f206419e"]}
+
+21:42:27:350	c0	got 39 bytes
+21:42:27:350	c0	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+21:42:27:350	c0	parse packet: 38
+21:42:27:351	c0	ETH: Share accepted (93 ms)!
+21:42:27:356	c0	new buf size: 0
+21:42:29:577	308	GPU 0 temp = 55, old fan speed = 70, new fan speed = 65 
+21:42:29:632	308	GPU 1 temp = 49, old fan speed = 0, new fan speed = 25 
+21:42:29:688	308	GPU 2 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:29:709	c80	ETH: put share nonce d8ff5e700729dcf3
+21:42:29:709	c80	ETH round found 1 shares
+21:42:29:710	c0	ETH: 06/28/17-21:42:29 - SHARE FOUND - (GPU 2)
+21:42:29:713	c0	send: {"worker":"480","id":4,"method":"eth_submitWork","params":["0xd8ff5e700729dcf3","0x363406d500e630c6dc533bea86499e7e92c11f9657702581954c9cfeac846beb","0xeedafb4c1854843bbc2c4ea990ae6a3c649745cea261ad3ee416518cbcf9a8c1"]}
+
+21:42:29:764	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:29:809	c0	got 39 bytes
+21:42:29:809	c0	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+21:42:29:809	c0	parse packet: 38
+21:42:29:810	c0	ETH: Share accepted (93 ms)!
+21:42:29:813	c0	new buf size: 0
+21:42:29:849	308	GPU 4 temp = 55, old fan speed = 0, new fan speed = 25 
+21:42:32:415	8fc	ETH: put share nonce 447318098fe427
+21:42:32:416	8fc	ETH round found 1 shares
+21:42:32:417	c0	ETH: 06/28/17-21:42:32 - SHARE FOUND - (GPU 4)
+21:42:32:421	c0	send: {"worker":"480","id":4,"method":"eth_submitWork","params":["0x00447318098fe427","0x363406d500e630c6dc533bea86499e7e92c11f9657702581954c9cfeac846beb","0x678316a41185d54ae82bdd05df5d2ffea764f22f717683a9f591557c380e663b"]}
+
+21:42:32:517	c0	got 39 bytes
+21:42:32:518	c0	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+21:42:32:519	c0	parse packet: 38
+21:42:32:521	c0	ETH: Share accepted (94 ms)!
+21:42:32:525	c0	new buf size: 0
+21:42:32:981	308	GPU 0 temp = 55, old fan speed = 69, new fan speed = 63 
+21:42:33:038	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:33:110	308	GPU 2 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:33:200	308	GPU 3 temp = 47, old fan speed = 0, new fan speed = 25 
+21:42:33:283	308	GPU 4 temp = 55, old fan speed = 0, new fan speed = 25 
+21:42:34:528	c0	got 248 bytes
+21:42:34:528	c0	buf: {"id":0,"jsonrpc":"2.0","result":["0x1143104cb51f79cdcd5907b91d6a010b22ec0164e6894e3d47d8330b036eb7a2","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b03"]}
+
+21:42:34:528	c0	parse packet: 247
+21:42:34:529	c0	ETH: job changed
+21:42:34:529	c0	new buf size: 0
+21:42:34:530	c0	ETH: 06/28/17-21:42:34 - New job from asia1.ethermine.org:4444
+21:42:34:530	c0	target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:42:34:539	c0	ETH - Total Speed: 146.256 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:01
+21:42:34:559	c0	ETH: GPU0 29.231 Mh/s, GPU1 29.266 Mh/s, GPU2 29.221 Mh/s, GPU3 29.260 Mh/s, GPU4 29.277 Mh/s
+21:42:35:031	c0	send: {"id":6,"worker":"480","jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8b712cc", "0x00000000000000000000000000000000000000000000000000000000e5ba3c7e"]}
+
+21:42:35:126	c0	got 39 bytes
+21:42:35:126	c0	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:42:35:126	c0	parse packet: 38
+21:42:35:127	c0	new buf size: 0
+21:42:36:407	308	GPU 0 temp = 55, old fan speed = 66, new fan speed = 61 
+21:42:36:464	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:36:540	308	GPU 2 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:36:623	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:36:721	308	GPU 4 temp = 56, old fan speed = 0, new fan speed = 25 
+21:42:39:835	308	GPU 0 temp = 56, old fan speed = 64, new fan speed = 60 
+21:42:39:891	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:39:966	308	GPU 2 temp = 51, old fan speed = 0, new fan speed = 25 
+21:42:40:046	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:40:126	308	GPU 4 temp = 56, old fan speed = 0, new fan speed = 25 
+21:42:43:256	308	GPU 0 temp = 56, old fan speed = 63, new fan speed = 59 
+21:42:43:312	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:43:387	308	GPU 2 temp = 51, old fan speed = 0, new fan speed = 25 
+21:42:43:466	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:43:549	308	GPU 4 temp = 56, old fan speed = 0, new fan speed = 25 
+21:42:45:017	c0	ETH: checking pool connection...
+21:42:45:017	c0	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+21:42:45:110	c0	got 248 bytes
+21:42:45:110	c0	buf: {"id":3,"jsonrpc":"2.0","result":["0x1143104cb51f79cdcd5907b91d6a010b22ec0164e6894e3d47d8330b036eb7a2","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b03"]}
+
+21:42:45:111	c0	parse packet: 247
+21:42:45:111	c0	ETH: job is the same
+21:42:45:112	c0	new buf size: 0
+21:42:46:696	308	GPU 0 temp = 56, old fan speed = 62, new fan speed = 58 
+21:42:46:754	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:46:833	308	GPU 2 temp = 51, old fan speed = 0, new fan speed = 25 
+21:42:46:919	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:47:010	308	GPU 4 temp = 56, old fan speed = 0, new fan speed = 25 
+21:42:47:393	308	GPU0 t=56C fan=62%, GPU1 t=50C fan=0%, GPU2 t=51C fan=0%, GPU3 t=48C fan=0%, GPU4 t=56C fan=0%
+21:42:47:399	308	em hbt: 0, fm hbt: 15, 
+21:42:47:400	308	watchdog - thread 0 (gpu0), hb time 172
+21:42:47:400	308	watchdog - thread 1 (gpu0), hb time 0
+21:42:47:400	308	watchdog - thread 2 (gpu1), hb time 94
+21:42:47:401	308	watchdog - thread 3 (gpu1), hb time 250
+21:42:47:401	308	watchdog - thread 4 (gpu2), hb time 172
+21:42:47:401	308	watchdog - thread 5 (gpu2), hb time 0
+21:42:47:403	308	watchdog - thread 6 (gpu3), hb time 234
+21:42:47:403	308	watchdog - thread 7 (gpu3), hb time 78
+21:42:47:403	308	watchdog - thread 8 (gpu4), hb time 94
+21:42:47:403	308	watchdog - thread 9 (gpu4), hb time 250
+21:42:50:512	308	GPU 0 temp = 56, old fan speed = 61, new fan speed = 57 
+21:42:50:569	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:50:641	308	GPU 2 temp = 51, old fan speed = 0, new fan speed = 25 
+21:42:50:724	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:50:810	308	GPU 4 temp = 56, old fan speed = 0, new fan speed = 25 
+21:42:51:102	c0	got 248 bytes
+21:42:51:102	c0	buf: {"id":0,"jsonrpc":"2.0","result":["0x701ccf73688dbd004ce93a4264c77075d9cbd286e90c42d5c72f5977ddc89e2a","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b04"]}
+
+21:42:51:102	c0	parse packet: 247
+21:42:51:103	c0	ETH: job changed
+21:42:51:103	c0	new buf size: 0
+21:42:51:104	c0	ETH: 06/28/17-21:42:51 - New job from asia1.ethermine.org:4444
+21:42:51:104	c0	target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:42:51:110	c0	ETH - Total Speed: 146.323 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:01
+21:42:51:143	c0	ETH: GPU0 29.224 Mh/s, GPU1 29.280 Mh/s, GPU2 29.262 Mh/s, GPU3 29.288 Mh/s, GPU4 29.269 Mh/s
+21:42:53:951	308	GPU 0 temp = 56, old fan speed = 60, new fan speed = 56 
+21:42:54:012	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:54:088	308	GPU 2 temp = 51, old fan speed = 0, new fan speed = 25 
+21:42:54:174	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:54:269	308	GPU 4 temp = 56, old fan speed = 0, new fan speed = 25 
+21:42:55:047	c0	send: {"id":6,"worker":"480","jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8b07769", "0x00000000000000000000000000000000000000000000000000000000e5ba3c7e"]}
+
+21:42:55:140	c0	got 39 bytes
+21:42:55:140	c0	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:42:55:141	c0	parse packet: 38
+21:42:55:141	c0	new buf size: 0
+21:42:57:402	308	GPU 0 temp = 56, old fan speed = 58, new fan speed = 55 
+21:42:57:459	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:42:57:534	308	GPU 2 temp = 51, old fan speed = 0, new fan speed = 25 
+21:42:57:624	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:42:57:721	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:00:865	308	GPU 0 temp = 56, old fan speed = 57, new fan speed = 54 
+21:43:00:923	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:00:982	308	GPU 2 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:01:060	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:01:160	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:04:283	308	GPU 0 temp = 57, old fan speed = 55, new fan speed = 54 
+21:43:04:338	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:43:04:405	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:04:412	c0	got 248 bytes
+21:43:04:412	c0	buf: {"id":0,"jsonrpc":"2.0","result":["0x8aa47b725c85bbdcf02bc90b23d0d56bcec376185024977c4a91a829a4fd3fb7","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b05"]}
+
+21:43:04:413	c0	parse packet: 247
+21:43:04:414	c0	ETH: job changed
+21:43:04:415	c0	new buf size: 0
+21:43:04:417	c0	ETH: 06/28/17-21:43:04 - New job from asia1.ethermine.org:4444
+21:43:04:417	c0	target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:43:04:431	c0	ETH - Total Speed: 145.463 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:01
+21:43:04:477	c0	ETH: GPU0 29.272 Mh/s, GPU1 29.095 Mh/s, GPU2 29.268 Mh/s, GPU3 28.858 Mh/s, GPU4 28.970 Mh/s
+21:43:04:532	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:04:602	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:07:725	308	GPU 0 temp = 57, old fan speed = 56, new fan speed = 54 
+21:43:07:783	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:07:861	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:07:942	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:08:026	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:11:186	308	GPU 0 temp = 57, old fan speed = 56, new fan speed = 54 
+21:43:11:243	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:11:319	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:11:406	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:11:494	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:14:628	308	GPU 0 temp = 57, old fan speed = 57, new fan speed = 54 
+21:43:14:683	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:43:14:753	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:14:840	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:14:924	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:15:032	c0	ETH: checking pool connection...
+21:43:15:032	c0	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+21:43:15:063	c0	send: {"id":6,"worker":"480","jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8b8e40d", "0x00000000000000000000000000000000000000000000000000000000e5ba3c7e"]}
+
+21:43:15:127	c0	got 248 bytes
+21:43:15:128	c0	buf: {"id":3,"jsonrpc":"2.0","result":["0x8aa47b725c85bbdcf02bc90b23d0d56bcec376185024977c4a91a829a4fd3fb7","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b05"]}
+
+21:43:15:128	c0	parse packet: 247
+21:43:15:128	c0	ETH: job is the same
+21:43:15:129	c0	new buf size: 0
+21:43:15:218	c0	got 39 bytes
+21:43:15:218	c0	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:43:15:218	c0	parse packet: 38
+21:43:15:219	c0	new buf size: 0
+21:43:18:049	308	GPU 0 temp = 57, old fan speed = 56, new fan speed = 54 
+21:43:18:105	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:18:183	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:18:262	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:18:342	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:21:358	c0	got 248 bytes
+21:43:21:358	c0	buf: {"id":0,"jsonrpc":"2.0","result":["0x7bdce6b8b32ca6dddade0cdd7b666eb85f2384c085f732a1387eef3f3ab5ebf4","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b06"]}
+
+21:43:21:358	c0	parse packet: 247
+21:43:21:359	c0	ETH: job changed
+21:43:21:359	c0	new buf size: 0
+21:43:21:360	c0	ETH: 06/28/17-21:43:21 - New job from asia1.ethermine.org:4444
+21:43:21:360	c0	target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:43:21:364	c0	ETH - Total Speed: 146.189 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:02
+21:43:21:366	c0	ETH: GPU0 29.223 Mh/s, GPU1 29.247 Mh/s, GPU2 29.220 Mh/s, GPU3 29.237 Mh/s, GPU4 29.263 Mh/s
+21:43:21:459	308	GPU 0 temp = 57, old fan speed = 56, new fan speed = 54 
+21:43:21:516	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:21:593	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:21:682	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:21:772	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:22:035	46c	
+21:43:22:044	46c	GPU #0: Ellesmere, 8192 MB available, 36 compute units
+21:43:22:049	46c	GPU #1: Ellesmere, 8192 MB available, 36 compute units
+21:43:22:059	46c	GPU #2: Ellesmere, 8192 MB available, 36 compute units
+21:43:22:064	46c	GPU #3: Ellesmere, 8192 MB available, 36 compute units
+21:43:22:073	46c	GPU #4: Ellesmere, 8192 MB available, 36 compute units
+21:43:22:080	46c	ETH - Total Speed: 146.493 Mh/s, Total Shares: 5(2+0+1+1+1), Rejected: 0, Time: 00:02
+21:43:22:086	46c	ETH: GPU0 29.253 Mh/s, GPU1 29.311 Mh/s, GPU2 29.291 Mh/s, GPU3 29.328 Mh/s, GPU4 29.310 Mh/s
+21:43:22:102	46c	Incorrect ETH shares: none
+21:43:22:104	46c	1 minute average ETH total speed: 145.636 Mh/s
+21:43:22:105	46c	Pool switches: ETH - 0, DCR - 0
+21:43:22:106	46c	Current ETH share target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:43:22:154	308	GPU0 t=57C fan=56%, GPU1 t=51C fan=0%, GPU2 t=52C fan=0%, GPU3 t=48C fan=0%, GPU4 t=57C fan=0%
+21:43:22:157	308	em hbt: 16, fm hbt: 63, 
+21:43:22:157	308	watchdog - thread 0 (gpu0), hb time 250
+21:43:22:158	308	watchdog - thread 1 (gpu0), hb time 16
+21:43:22:158	308	watchdog - thread 2 (gpu1), hb time 63
+21:43:22:158	308	watchdog - thread 3 (gpu1), hb time 219
+21:43:22:159	308	watchdog - thread 4 (gpu2), hb time 141
+21:43:22:159	308	watchdog - thread 5 (gpu2), hb time 297
+21:43:22:159	308	watchdog - thread 6 (gpu3), hb time 219
+21:43:22:160	308	watchdog - thread 7 (gpu3), hb time 63
+21:43:22:160	308	watchdog - thread 8 (gpu4), hb time 63
+21:43:22:160	308	watchdog - thread 9 (gpu4), hb time 219
+21:43:22:502	46c	GPU0 t=56C fan=56%, GPU1 t=51C fan=0%, GPU2 t=52C fan=0%, GPU3 t=48C fan=0%, GPU4 t=57C fan=0%
+21:43:22:506	46c	
+21:43:25:307	308	GPU 0 temp = 57, old fan speed = 56, new fan speed = 54 
+21:43:25:368	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:25:445	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:25:526	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:25:619	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:28:734	308	GPU 0 temp = 57, old fan speed = 56, new fan speed = 54 
+21:43:28:790	308	GPU 1 temp = 50, old fan speed = 0, new fan speed = 25 
+21:43:28:869	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:28:959	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:29:035	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:32:158	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:43:32:213	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:32:281	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:32:365	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:32:463	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:35:080	c0	send: {"id":6,"worker":"480","jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8b84ef6", "0x00000000000000000000000000000000000000000000000000000000e5ba3c7e"]}
+
+21:43:35:170	c0	got 39 bytes
+21:43:35:170	c0	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:43:35:170	c0	parse packet: 38
+21:43:35:171	c0	new buf size: 0
+21:43:35:590	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:43:35:647	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:35:715	308	GPU 2 temp = 52, old fan speed = 0, new fan speed = 25 
+21:43:35:794	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:35:883	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:36:858	c0	got 248 bytes
+21:43:36:858	c0	buf: {"id":0,"jsonrpc":"2.0","result":["0x33e4ff467eb8a172d330efe78e6d4cc276e8f901ebeba4ea59196337d6784dc1","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b07"]}
+
+21:43:36:858	c0	parse packet: 247
+21:43:36:859	c0	ETH: job changed
+21:43:36:859	c0	new buf size: 0
+21:43:36:860	c0	ETH: 06/28/17-21:43:36 - New job from asia1.ethermine.org:4444
+21:43:36:860	c0	target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:43:36:863	c0	ETH - Total Speed: 146.262 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:02
+21:43:36:865	c0	ETH: GPU0 29.239 Mh/s, GPU1 29.288 Mh/s, GPU2 29.240 Mh/s, GPU3 29.278 Mh/s, GPU4 29.216 Mh/s
+21:43:38:997	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:43:39:051	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:39:113	308	GPU 2 temp = 53, old fan speed = 0, new fan speed = 25 
+21:43:39:199	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:39:293	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:42:413	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:43:42:469	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:42:538	308	GPU 2 temp = 53, old fan speed = 0, new fan speed = 25 
+21:43:42:624	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:42:714	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:45:049	c0	ETH: checking pool connection...
+21:43:45:049	c0	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+21:43:45:141	c0	got 248 bytes
+21:43:45:141	c0	buf: {"id":3,"jsonrpc":"2.0","result":["0x33e4ff467eb8a172d330efe78e6d4cc276e8f901ebeba4ea59196337d6784dc1","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b07"]}
+
+21:43:45:141	c0	parse packet: 247
+21:43:45:142	c0	ETH: job is the same
+21:43:45:142	c0	new buf size: 0
+21:43:45:833	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:43:45:889	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:45:951	46c	
+21:43:45:955	46c	GPU #0: Ellesmere, 8192 MB available, 36 compute units
+21:43:45:956	46c	GPU #1: Ellesmere, 8192 MB available, 36 compute units
+21:43:45:967	46c	GPU #2: Ellesmere, 8192 MB available, 36 compute units
+21:43:45:969	46c	GPU #3: Ellesmere, 8192 MB available, 36 compute units
+21:43:45:966	308	GPU 2 temp = 53, old fan speed = 0, new fan speed = 25 
+21:43:45:973	46c	GPU #4: Ellesmere, 8192 MB available, 36 compute units
+21:43:45:984	46c	ETH - Total Speed: 146.439 Mh/s, Total Shares: 5(2+0+1+1+1), Rejected: 0, Time: 00:02
+21:43:45:997	46c	ETH: GPU0 29.264 Mh/s, GPU1 29.297 Mh/s, GPU2 29.293 Mh/s, GPU3 29.310 Mh/s, GPU4 29.275 Mh/s
+21:43:46:014	46c	Incorrect ETH shares: none
+21:43:46:016	46c	1 minute average ETH total speed: 145.592 Mh/s
+21:43:46:017	46c	Pool switches: ETH - 0, DCR - 0
+21:43:46:018	46c	Current ETH share target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:43:46:059	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:46:130	308	GPU 4 temp = 57, old fan speed = 0, new fan speed = 25 
+21:43:46:474	46c	GPU0 t=58C fan=56%, GPU1 t=51C fan=0%, GPU2 t=53C fan=0%, GPU3 t=48C fan=0%, GPU4 t=57C fan=0%
+21:43:46:478	46c	
+21:43:49:249	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:43:49:307	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:49:383	308	GPU 2 temp = 53, old fan speed = 0, new fan speed = 25 
+21:43:49:461	308	GPU 3 temp = 48, old fan speed = 0, new fan speed = 25 
+21:43:49:539	308	GPU 4 temp = 58, old fan speed = 0, new fan speed = 25 
+21:43:52:662	308	GPU 0 temp = 58, old fan speed = 55, new fan speed = 54 
+21:43:52:722	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:52:795	308	GPU 2 temp = 53, old fan speed = 0, new fan speed = 25 
+21:43:52:883	308	GPU 3 temp = 49, old fan speed = 0, new fan speed = 25 
+21:43:52:979	308	GPU 4 temp = 58, old fan speed = 0, new fan speed = 25 
+21:43:55:095	c0	send: {"id":6,"worker":"480","jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8af7366", "0x00000000000000000000000000000000000000000000000000000000e5ba3c7e"]}
+
+21:43:55:187	c0	got 39 bytes
+21:43:55:187	c0	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:43:55:187	c0	parse packet: 38
+21:43:55:188	c0	new buf size: 0
+21:43:55:890	46c	
+21:43:55:896	46c	GPU #0: Ellesmere, 8192 MB available, 36 compute units
+21:43:55:897	46c	GPU #1: Ellesmere, 8192 MB available, 36 compute units
+21:43:55:899	46c	GPU #2: Ellesmere, 8192 MB available, 36 compute units
+21:43:55:902	46c	GPU #3: Ellesmere, 8192 MB available, 36 compute units
+21:43:55:905	46c	GPU #4: Ellesmere, 8192 MB available, 36 compute units
+21:43:55:924	46c	ETH - Total Speed: 146.239 Mh/s, Total Shares: 5(2+0+1+1+1), Rejected: 0, Time: 00:02
+21:43:55:925	46c	ETH: GPU0 29.221 Mh/s, GPU1 29.251 Mh/s, GPU2 29.249 Mh/s, GPU3 29.255 Mh/s, GPU4 29.264 Mh/s
+21:43:55:927	46c	Incorrect ETH shares: none
+21:43:55:930	46c	1 minute average ETH total speed: 145.667 Mh/s
+21:43:55:936	46c	Pool switches: ETH - 0, DCR - 0
+21:43:55:952	46c	Current ETH share target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:43:56:331	46c	GPU0 t=58C fan=55%, GPU1 t=51C fan=0%, GPU2 t=53C fan=0%, GPU3 t=49C fan=0%, GPU4 t=58C fan=0%
+21:43:56:340	46c	
+21:43:56:428	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:43:56:484	308	GPU 1 temp = 51, old fan speed = 0, new fan speed = 25 
+21:43:56:541	308	GPU 2 temp = 53, old fan speed = 0, new fan speed = 25 
+21:43:56:612	308	GPU 3 temp = 49, old fan speed = 0, new fan speed = 25 
+21:43:56:695	308	GPU 4 temp = 58, old fan speed = 0, new fan speed = 25 
+21:43:57:062	308	GPU0 t=58C fan=56%, GPU1 t=52C fan=0%, GPU2 t=53C fan=0%, GPU3 t=48C fan=0%, GPU4 t=58C fan=0%
+21:43:57:063	308	em hbt: 16, fm hbt: 47, 
+21:43:57:063	308	watchdog - thread 0 (gpu0), hb time 109
+21:43:57:064	308	watchdog - thread 1 (gpu0), hb time 266
+21:43:57:065	308	watchdog - thread 2 (gpu1), hb time 156
+21:43:57:065	308	watchdog - thread 3 (gpu1), hb time 328
+21:43:57:065	308	watchdog - thread 4 (gpu2), hb time 234
+21:43:57:065	308	watchdog - thread 5 (gpu2), hb time 78
+21:43:57:066	308	watchdog - thread 6 (gpu3), hb time 328
+21:43:57:066	308	watchdog - thread 7 (gpu3), hb time 156
+21:43:57:066	308	watchdog - thread 8 (gpu4), hb time 156
+21:43:57:066	308	watchdog - thread 9 (gpu4), hb time 328
+21:43:59:027	c0	got 248 bytes
+21:43:59:027	c0	buf: {"id":0,"jsonrpc":"2.0","result":["0x2eab2c81d82e92aa60ca52642b89112039f526293a8598713f37eeaddba303ef","0x2228076c08ee5e3500b68e66c50aee75f9cd5c2dcd54c78c0645218c19e634f3","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3c2b08"]}
+
+21:43:59:027	c0	parse packet: 247
+21:43:59:028	c0	ETH: job changed
+21:43:59:028	c0	new buf size: 0
+21:43:59:029	c0	ETH: 06/28/17-21:43:59 - New job from asia1.ethermine.org:4444
+21:43:59:029	c0	target: 0x0000000112e0be82 (diff: 4000MH), epoch 131(2.02GB)
+21:43:59:033	c0	ETH - Total Speed: 146.279 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:02
+21:43:59:034	c0	ETH: GPU0 29.237 Mh/s, GPU1 29.277 Mh/s, GPU2 29.248 Mh/s, GPU3 29.260 Mh/s, GPU4 29.258 Mh/s
+21:44:00:172	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:44:00:227	308	GPU 1 temp = 52, old fan speed = 0, new fan speed = 25 
+21:44:00:286	308	GPU 2 temp = 53, old fan speed = 0, new fan speed = 25 
+21:44:00:365	308	GPU 3 temp = 49, old fan speed = 0, new fan speed = 25 
+21:44:00:454	308	GPU 4 temp = 58, old fan speed = 0, new fan speed = 25 
+21:44:03:586	308	GPU 0 temp = 58, old fan speed = 56, new fan speed = 54 
+21:44:03:640	308	GPU 1 temp = 52, old fan speed = 0, new fan speed = 25 
+21:44:03:704	308	GPU 2 temp = 53, old fan speed = 0, new fan speed = 25 
+21:44:03:787	308	GPU 3 temp = 49, old fan speed = 0, new fan speed = 25 
+21:44:03:876	308	GPU 4 temp = 58, old fan speed = 0, new fan speed = 25 
+21:44:04:458	458	ETH: put share nonce b5f6f2600484475a
+21:44:04:458	458	ETH round found 1 shares
+21:44:04:460	c0	ETH: 06/28/17-21:44:04 - SHARE FOUND - (GPU 1)
+21:44:04:461	c0	send: {"worker":"480","id":4,"method":"eth_submitWork","params":["0xb5f6f2600484475a","0x2eab2c81d82e92aa60ca52642b89112039f526293a8598713f37eeaddba303ef","0x0fcf511d2c9efbdfb3b260956d666b11c797810f1e426d1040fd90118bed2218"]}
+
+21:44:04:559	c0	got 39 bytes
+21:44:04:559	c0	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+21:44:04:559	c0	parse packet: 38
+21:44:04:565	c0	ETH: Share accepted (93 ms)!
+21:44:04:567	c0	new buf size: 0
+21:44:06:185	7b8	OC v7, Reset control for GPU 0, close miner right now if you want to use default control from Catalyst 
+21:44:06:238	7b8	OC v7, Reset control for GPU 1, close miner right now if you want to use default control from Catalyst 
+21:44:06:313	7b8	OC v7, Reset control for GPU 2, close miner right now if you want to use default control from Catalyst 
+21:44:06:397	7b8	OC v7, Reset control for GPU 3, close miner right now if you want to use default control from Catalyst 
+21:44:06:475	7b8	OC v7, Reset control for GPU 4, close miner right now if you want to use default control from Catalyst 

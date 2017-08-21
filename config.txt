@@ -1,0 +1,22 @@
+# WARNING! Remove "#" characters to enable lines, with "#" they are disabled and will be ignored by miner! Check README for details.
+# WARNING! Miner loads options from this file only if there are not any options in the command line!
+-epool asia1.ethermine.org:4444
+-ewal 0x782e59ec5699ae29e58ac3552496eb91be0c16da
+-epsw x
+-eworker 480
+#-dpool stratum+tcp://sia-asia1.nanopool.org:7777
+
+#-dcoin sia
+#-dwal fe8b6051c6b31f58d4c76f48f310244981ab4357fb77a99ecabe7238e11c119581c4d66a157f/sc/buithanhktckbk54@gmail.com
+#-dwal b57be5e459c41206b879b11fbe7ebec3d84301c5514e4c686eb1806ab5c2d5aac283a3df2bee/sc/buithanhktckbk54@gmail.com
+
+#-dcri 7
+#-dpsw x
+#-esm 1
+#-mode 0
+#-tt 70
+#-asm 0
+-r 1
+-esm 1
+-mode 0
+-tt 60
